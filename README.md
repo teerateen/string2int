@@ -1,3 +1,10 @@
+# Coding for test string2int Challenge
+ .Net 5
+ React.js
+
+# Run on VS Code
+ dotnet build
+ dotnet run
 # string2int Challenge
 
 For anyone who accept this challenge, you have to write the program in any language that can retrieve mixed both numerical and alphabetical character and return only the numerical value in interger format.
