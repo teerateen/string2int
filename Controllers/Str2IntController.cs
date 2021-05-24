@@ -40,17 +40,17 @@ namespace test_str2int.Controllers
         [HttpGet("[action]/{text?}")]
         public string String2Int(string text)
         {
-            string textNunber = "";
+            string textNumber = "";
             Regex regex = new Regex("^[0-9]+$");
             for (int i = 0; i < text.Length; i++)
             {
                 if (regex.IsMatch(text.ToCharArray()[i] + ""))
                 {
-                    textNunber += text.ToCharArray()[i] + "";
+                    textNumber += text.ToCharArray()[i] + "";
                 }
             }
 
-            return textNunber;
+            return textNumber;
         }
     }
 }
